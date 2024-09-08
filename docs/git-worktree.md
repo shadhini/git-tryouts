@@ -1,5 +1,6 @@
 ---
 description: About behaviour of git worktrees and related git commands
+icon: network-wired
 cover: .gitbook/assets/git-worktree.png
 coverY: 0
 layout:
@@ -55,7 +56,7 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-* The "git-tryouts" repository has been cloned, and there are some local changes that haven't been staged yet.&#x20;
+* Note that, the "git-tryouts" repository has been cloned, and there are some local changes that haven't been staged yet.&#x20;
   * Changes:
     * updated  `README.md` , `.gitignore`
     * new file `test1.md`

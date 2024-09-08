@@ -1,5 +1,5 @@
 ---
-icon: font-awesome
+icon: github
 cover: .gitbook/assets/git-tryouts.png
 coverY: -0.8645833333333334
 layout:

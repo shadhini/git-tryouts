@@ -1,5 +1,6 @@
 ---
 description: About git garbage collection command
+icon: trash-clock
 ---
 
 # Git Garbage Collection
