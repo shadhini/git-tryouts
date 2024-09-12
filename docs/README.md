@@ -1,7 +1,7 @@
 ---
 icon: github
-cover: .gitbook/assets/git-tryouts.png
-coverY: -0.8645833333333334
+cover: .gitbook/assets/git-tryouts-homepage.png
+coverY: -19.078125
 layout:
   cover:
     visible: true

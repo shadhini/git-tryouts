@@ -1,12 +1,7 @@
 ---
-description: About behaviour of git worktrees and related git commands
 icon: network-wired
-cover: .gitbook/assets/git-worktree.png
-coverY: 0
+description: About behaviour of git worktrees and related git commands
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
