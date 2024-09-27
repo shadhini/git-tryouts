@@ -27,7 +27,7 @@ For a more concise explanation of Git Worktrees, check out my Medium blog.
 * Worktrees allow you to have multiple working directories for a single repository, each checked out to different branches or commits.
 * To switch between branches, simply change the directory to the corresponding folder.
 
-<figure><img src=".gitbook/assets/git_worktree.png" alt=""><figcaption><p>Git Worktree Example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/git_worktree.png" alt=""><figcaption><p>Git Worktree Example</p></figcaption></figure>
 
 In the above setup, the main branch is linked to a directory named "main," which is located one logical level above (../) the repository folder.
 
@@ -135,9 +135,9 @@ shadhi@MacBook:~/Projects/Git-Tryouts/git-tryouts% git branch -a
 
 * Commit local changes to `main` branch and push all updates to remote repository.&#x20;
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-02.png" alt=""><figcaption></figcaption></figure>
 
 * The newly created `feature01` branch through the `git worktree add` command is also pushed to the remote repository using the `git push --all origin` command.
 
@@ -145,9 +145,9 @@ shadhi@MacBook:~/Projects/Git-Tryouts/git-tryouts% git branch -a
 
 * Create 2 new worktrees:  `feature02` at `../git-tryouts-worktree/feature02` and `docs-test` at the `./docs-test` directory, and push them both to the remote repository.
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-03.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-04.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -157,11 +157,11 @@ shadhi@MacBook:~/Projects/Git-Tryouts/git-tryouts% git branch -a
 
 * Remove git worktrees: `./docs-test` and `../git-tryouts-worktree/feature02.`
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-05.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-06.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-07.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 * Adding a worktree results in creating the corresponding branch locally, and you can push it to the remote repository if needed.&#x20;
@@ -174,7 +174,7 @@ shadhi@MacBook:~/Projects/Git-Tryouts/git-tryouts% git branch -a
 
 > **git worktree add \<PATH\_TO\_NEW\_WORKTREE> \<BRANCH\_NAME>**
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-08.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -184,15 +184,15 @@ shadhi@MacBook:~/Projects/Git-Tryouts/git-tryouts% git branch -a
 
 * Currently the `main` branch has following commits.&#x20;
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-09.png" alt=""><figcaption></figcaption></figure>
 
 * Check out commit `#b5f89a24673a80a387852d49959d774ebfcce31a` into a new worktree at `../git-tryouts-worktree/feature03`.
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-10.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-11.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-12.png" alt=""><figcaption></figcaption></figure>
 
 * This results in adding a new worktree and checking out the specified commit in a **detached HEAD** state there.
 
@@ -203,11 +203,11 @@ shadhi@MacBook:~/Projects/Git-Tryouts/git-tryouts% git branch -a
 * This can be done by committing the local changes of the worktree with the detached HEAD and then checking out a new branch using the `git checkout -b <NEW_BRANCH>` command.
 * This branch can then be pushed to the remote repository if needed.
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-13.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-14.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Git-Worktree-Screenshot-15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Git-Worktree-Screenshot-15.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -270,5 +270,5 @@ It's always best practice to clean up a worktree after finishing your work there
 > * ✅ Working on long-lived feature branches&#x20;
 > * ✅ Reduction of the risk of merge conflicts
 
-<figure><img src=".gitbook/assets/git-worktree-commands-mindmup.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/git-worktree-commands-mindmup.png" alt=""><figcaption></figcaption></figure>
 

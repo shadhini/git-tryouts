@@ -1,6 +1,6 @@
 ---
-description: Glossary of Git commands
 icon: books
+description: Glossary of Git commands
 cover: .gitbook/assets/glossary.png
 coverY: 22.625
 layout:
@@ -21,7 +21,7 @@ layout:
 
 # Glossary
 
-## [Git Worktree](git-worktree.md#command-guide)
+## [Git Worktree](git-advanced/git-worktree.md#command-guide)
 
 git worktree list
 
@@ -37,7 +37,7 @@ git worktree remove \<PATH>
 
 
 
-## [Git Garbage Collection](git-garbage-collection.md#command-guide)
+## [Git Garbage Collection](git-advanced/git-garbage-collection.md#command-guide)
 
 git fsck
 
