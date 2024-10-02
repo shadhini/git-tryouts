@@ -1,6 +1,6 @@
 ---
-icon: books
 description: Glossary of Git commands
+icon: books
 cover: .gitbook/assets/glossary.png
 coverY: 22.625
 layout:

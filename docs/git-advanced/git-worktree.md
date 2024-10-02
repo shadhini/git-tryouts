@@ -1,6 +1,6 @@
 ---
-icon: network-wired
 description: About behaviour of git worktrees and related git commands
+icon: network-wired
 layout:
   title:
     visible: true
