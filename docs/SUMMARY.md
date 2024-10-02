@@ -6,6 +6,7 @@
 
 * [Git Worktree](git-advanced/git-worktree.md)
 * [Git Garbage Collection](git-advanced/git-garbage-collection.md)
+* [Git Rebase](git-advanced/git-rebase.md)
 
 ***
 
