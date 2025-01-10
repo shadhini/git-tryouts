@@ -17,3 +17,4 @@
 
 * [Git Configuration](git-configs/git-configuration.md)
 * [GPG Keys](git-configs/gpg-keys.md)
+* [Git Authored Vs Git Committed](git-configs/git-authored-vs-git-committed.md)
