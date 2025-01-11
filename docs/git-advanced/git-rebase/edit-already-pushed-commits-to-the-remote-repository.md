@@ -39,7 +39,7 @@ This should be done with caution, especially if the repository is shared with ot
 #### Example Command:
 
 ```sh
-git commit --amend --author="Shadhini D <shadhini@dvtechlabs.com>"
+git commit --amend --author="Amal <amal@gmail.com>"
 ```
 
 
